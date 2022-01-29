@@ -136,7 +136,7 @@ composer global require spatie/phpunit-watcher
 
 echo 'Install laravel valet'
 echo '---------------------'
-composer global require laravel/valet
+composer global require laravel/valet -W
 valet install
 
 #echo 'Install mysql'
