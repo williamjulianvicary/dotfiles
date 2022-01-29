@@ -19,7 +19,7 @@ alias nah='git reset --hard;git clean -df'
 alias pp="php artisan test --parallel"
 alias d="php artisan dusk"
 alias sshconfig="vi ~/.ssh/config"
-alias copykey='command cat ~/.ssh/id_rsa.public | pbcopy'
+alias copykey='command cat ~/.ssh/id_rsa.pub | pbcopy'
 alias sail='./vendor/bin/sail'
 alias sa="./vendor/bin/sail artisan"
 alias tunnel='valet share -subdomain=willjv -region=eu'
