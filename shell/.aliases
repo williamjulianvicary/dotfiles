@@ -84,5 +84,5 @@ alias npmnpm="npm config set registry https://registry.npmjs.org"
 alias touchbar="killall ControlStrip"
 
 # Force PHP8 for takeout/expose until dependency is fixed
-alias takeout="/opt/homebrew/Cellar/php@8.0/8.0.15/bin/php ~/.composer/vendor/bin/takeout"
-alias expose="/opt/homebrew/Cellar/php@8.0/8.0.15/bin/php ~/.composer/vendor/bin/expose"
+alias takeout="/opt/homebrew/bin/php ~/.composer/vendor/bin/takeout"
+alias expose="/opt/homebrew/bin/php ~/.composer/vendor/bin/expose"

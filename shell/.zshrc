@@ -92,4 +92,20 @@ export PATH="/usr/local/opt/node@8/bin:$PATH"
 
 export PATH="/usr/local/opt/node@12/bin:$PATH"
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/Users/williamjulianvicary/sdk/go1.18/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+unalias gam
+function gam() { "/Users/williamjulianvicary/bin/gam/gam" "$@" ; }
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/williamjulianvicary/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/williamjulianvicary/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/williamjulianvicary/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/williamjulianvicary/google-cloud-sdk/completion.zsh.inc'; fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
